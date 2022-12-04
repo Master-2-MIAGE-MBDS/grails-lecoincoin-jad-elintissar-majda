@@ -1,6 +1,8 @@
 # grails-lecoincoin-jad-elintissar-majda
 # grails-lecoincoin-jad-elintissar-majda
 
+Video demonstrative  : https://youtu.be/kWTgZ7RhT1I
+
 ### 1. USER :
 
 
