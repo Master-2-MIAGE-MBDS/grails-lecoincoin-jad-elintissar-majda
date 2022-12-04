@@ -21,7 +21,7 @@
 - Ajouter un utilisateur
 - Supprimer une annonce 
 - Modifier une des annonces
- - Supprimer une annonce 
+- Supprimer une annonce 
 
     
 
@@ -31,11 +31,11 @@ Ce rôle est légèrement similaire à celui de l'admin, sa différence est dans
 
 - Visualiser les annonces dans Dashboard exctement comme l'admin. 
 - Visualiser une annonce en cliquant sur son titre exactemment comme l'admin.
-  - Visualiser tous les utilisateurs 
-  - Modifier un utilisateur 
-  - Visualiser toutes les annonces 
-  - Visualier une annonce
-  - Modifier une des annonces 
+- Visualiser tous les utilisateurs 
+- Modifier un utilisateur 
+- Visualiser toutes les annonces 
+- Visualier une annonce
+-  Modifier une des annonces 
   
 ### 4. API 
 
