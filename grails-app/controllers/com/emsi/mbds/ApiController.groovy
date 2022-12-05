@@ -151,7 +151,7 @@ class ApiController {
                     if (!params.illustration.isEmpty()) {
                         request.getFiles("illustration").each {
                             def uploadFile = it
-                            File newFile = new File("C:/Users/Dj/Desktop/M2/FRAMEWORK GRAILS/grails-lecoincoin-teslek/grails-app/assets/images/" + it.originalFilename)
+                            File newFile = new File("C:Users/MAJDA/Downloads/grails_emsi_22_23-main/grails_emsi_22_23-main/grails_emsi_22_23-main/grails-app/assets/images/" + it.originalFilename)
                             uploadFile.transferTo(newFile)
                             annonceInstance.addToIllustrations(new Illustration(filename: it.originalFilename))
                         }
