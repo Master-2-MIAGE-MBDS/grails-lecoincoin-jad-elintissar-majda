@@ -4,6 +4,7 @@
 <title>Project-emsi-mbds</title>
 <asset:stylesheet src="index.css"/>
 
+<asset:stylesheet src="account.css"/>
 <asset:stylesheet src="admin.css"/>
 <asset:javascript src="jquery-2.2.0.min.js"/>
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -110,24 +111,37 @@
             <sec:ifLoggedIn>
                 <sec:ifAnyGranted roles="ROLE_USER">
                     <section id = "panel-user-1">
-                        <button id = "add-btn" onclick = "displayHideForm()">Add Ad</button>
-                        <div id="addform">
+                        <div  style="margin-left: 500px;margin-top: 50px" id="addform" >
                             <g:uploadForm controller = "api" action = "annonces" method = "POST" enctype="multipart/form-data">
                                 <span>
 
                                     <label for="title">Title</label>
+                                    <br>
                                     <input type="text" id="title" name="title" placeholder="Title...">
+                                    <br>
                                     <label for="price">Price</label>
                                     <br>
                                     <input type="number" id="price" name="price" placeholder="Price...">
-                                    <br><br>
+                                    <br>
                                     <label for="description">Description</label>
-                                    <textarea id="description" name="description" placeholder="Write something.." style="height:70px"></textarea>
+                                    <br>
+                                    <textarea id="description" name="description" placeholder="Write something.." style="height:80px; width: 420px"></textarea>
                                     <br>
                                     <label for="illustration">Illustrations</label>
+                                    <br>
                                     <input type="file" id="illustration" name="illustration"  multiple accept="image/*">
                                     <br>
-                                    <input type="submit" id="refresh" value="ADD">
+                                    <input type="submit" id="refresh" value="ADD" style="   display: inline-block;
+                                    padding: 5px 10px;
+                                    font-size: 20px;
+                                    cursor: pointer;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    outline: none;
+                                    color: #fff;
+                                    background-color: #4CAF50;
+                                    border: none;
+                                    border-radius: 15px;">
                                 </span>
                             </g:uploadForm>
                         </div>
@@ -176,8 +190,8 @@
                                                 <div class="description">
                                                     <p id = "descId${c.getId()}" >${c.getDescription()}</p>
                                                 </div>
-                                                <div class = "adButtons">
-                                                    <button class="buttonED" id="buttonEdit" value="${c.getId()}">Edit</button>
+                                                <div >
+                                                    <button class="buttonz" id="buttonEdit" value="${c.getId()}">Edit</button>
                                                     <button class="buttonED" id="buttonDelete" value="${c.getId()}" >Delete</button>
                                                 </div>
                                             </div>
