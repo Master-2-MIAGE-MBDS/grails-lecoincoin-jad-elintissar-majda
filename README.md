@@ -7,7 +7,7 @@ Video demonstrative  :https://drive.google.com/file/d/1kPDerD9dSxUeDhegdWuKQc6jO
 
 
 - Visualiser toutes les annonces disponibles dans le site 
-- Visualiser une annonce
+- Visualiser une annonce specifique
 - Visualiser ses propres annonces
 - Modifier une de ses annonces 
 - Ajouter une annonce
@@ -16,7 +16,7 @@ Video demonstrative  :https://drive.google.com/file/d/1kPDerD9dSxUeDhegdWuKQc6jO
 
 
 - Visualiser toutes les annonces disponibles dans le site 
-- Visualiser une annonce
+- Visualiser une annonce specifique
 - Visualiser tous les utilisateurs
 - Modifier un utilisateur 
 - Ajouter un utilisateur
@@ -30,9 +30,9 @@ Video demonstrative  :https://drive.google.com/file/d/1kPDerD9dSxUeDhegdWuKQc6jO
 Ce rôle est légèrement similaire à celui de l'admin, sa différence est dans le fait qui peut ni supprimer, ni ajouter une annonce ou un utilisateur, aussi il ne peut pas modifier le rôle d'un utilisateur étant un admin :
 
 - Visualiser les annonces dans home exactement comme l'admin
+- Visualiser une annonce specifique
 - Visualiser tous les utilisateurs 
 - Modifier un utilisateur 
-- Visualiser toutes les annonces 
 - Modifier une des annonces 
   
 ### 4. API 
