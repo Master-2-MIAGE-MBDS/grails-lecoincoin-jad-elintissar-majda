@@ -31,8 +31,8 @@ Video demonstrative  :https://drive.google.com/file/d/1kPDerD9dSxUeDhegdWuKQc6jO
 
 Ce rôle est légèrement similaire à celui de l'admin, sa différence est dans le fait qui peut ni supprimer, ni ajouter une annonce ou un utilisateur, aussi il ne peut pas modifier le rôle d'un utilisateur étant un admin :
 
-- Visualiser les annonces dans Dashboard exctement comme l'admin. 
-- Visualiser une annonce en cliquant sur son titre exactemment comme l'admin.
+- Visualiser les annonces dans Dashboard exactement comme l'admin
+- Visualiser une annonce
 - Visualiser tous les utilisateurs 
 - Modifier un utilisateur 
 - Visualiser toutes les annonces 
