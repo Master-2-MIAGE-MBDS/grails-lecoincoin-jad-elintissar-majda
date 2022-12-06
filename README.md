@@ -1,6 +1,11 @@
 # grails-lecoincoin-jad-elintissar-majda
 # grails-lecoincoin-jad-elintissar-majda
 
+Ce projet a ete realise par: 
+### Majda Moukrim
+### Mohammed Elintissar
+### Jad Hamza
+
 Video demonstrative  :https://drive.google.com/file/d/1kPDerD9dSxUeDhegdWuKQc6jOAC4Hbrd/view?usp=share_link
 
 ### 1. USER :
